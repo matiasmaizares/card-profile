@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #fbda61, #ff5acd);
+}
+.imgBx {
+  display: flex;
+  justify-content: space-between;
+}
+.container-img {
+  height: 120px;
+  width: 70px;
+}
+.container-img img {
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card {
+  position: relative;
+  padding: 20px;
+  width: 450px;
+  height: 520px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+  transition: 0.5s;
+}
+
+.info {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.info h1 {
+  font-weight: 500;
+}
+.info p {
+  font-weight: 300;
+}
+.tecnologias {
+  padding-top: 15px;
+  display: flex;
+}
+.tecnologias .king {
+  display: flex;
+  align-items: center;
+  background: #452479;
+  color: #fff;
+}
+.tecnologias .king i {
+  margin-right: 5px;
+}
+.tecnologias p {
+  background: #fdf5fb;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.experiencia {
+  padding-top: 20px;
+}
+.experiencia .compania {
+  display: flex;
+  padding: 5px 10px;
+}
+
+.experiencia .compania p {
+  color: #19278f;
+}
+.experiencia .compania p i {
+  margin-right: 5px;
+}
+.experiencia .compania h4 {
+  padding-left: 4px;
+  font-weight: 500;
+}
+.time-join {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.time-join .container-time {
+  display: flex;
+  align-items: center;
+}
+.container-time i {
+  color: #999698;
+}
+.container-time h4 {
+  color: #999698;
+  margin-left: 4px;
+  font-weight: 400;
+}
+.container-time p {
+  margin-left: 3px;
+  font-weight: 600;
+  color: #2ed577;
+}
+.btn {
+  border: none;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: rgb(30, 147, 219);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.favorite .btn {
+  background: #eebe0f;
+}
+.favorite .btn i {
+  margin-right: 3px;
+}
+/*
+.card:hover {
+height: 450px;
+}
+
+.imgBx {
+position: absolute;
+top: 1em;
+left: 5.5em;
+transform: translateX(-50%);
+height: 200px;
+width: 130px;
+border-radius: 50px;
+overflow: hidden;
+transition: 0.5s;
+}
+
+.imgBx img {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.info {
+background: red;
+}
+*/
